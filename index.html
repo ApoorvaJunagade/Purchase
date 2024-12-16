@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Main container for the entire content -->
+    <div class="container">
+
+        <!-- Section for the title of the offer -->
+        <div class="title">
+            <h1><span>YAY! it's BOGO</span></h1>
+        </div>
+
+        <!-- Section for the first item option -->
+        <div class="one-Item">
+            <form action="" class="box">
+                <!-- Radio button for selecting this option -->
+                <div class="radio-btn">
+                    <input type="radio" name="choice">
+                    <span></span>
+                </div>
+
+                <!-- Heading showing item details and discount -->
+                <div class="heading">
+                    <h2>1 Unit
+                        <span class="discount">10% off</span>
+                    </h2>
+                    <div>
+                        <h3>Standard Price</h3>
+                    </div>
+                </div>
+
+                <!-- Pricing details -->
+                <div class="cost">
+                    <div>
+                        <h2>$10.00 USD</h2>
+                    </div>
+                    <div class="previous-price">$24.00 USD </div>
+                </div>
+
+                <!-- Description section with size and color options -->
+                <div class="description">
+                    <div class="container">
+                        <div style="padding-left: 1rem;">size</div>
+                        <div>colour</div>
+
+                        <!-- Size and color options for item #1 -->
+                        <div>
+                            #1
+                            <select name="" id="">
+                                <option value="value1">s</option>
+                            </select>
+                        </div>
+                        <div>
+                            <select name="" id="">
+                                <option value="value1">black</option>
+                            </select>
+                        </div>
+
+                        <!-- Size and color options for item #2 -->
+                        <div>
+                            #2
+                            <select name="" id="">
+                                <option value="value1">s</option>
+                            </select>
+                        </div>
+                        <div>
+                            <select name="" id="">
+                                <option value="value1">colour</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- Section for the second item option -->
+        <div class="two-Items">
+            <!-- "Most Popular" label -->
+            <div class="popular">MOST POPULAR</div>
+            <form action="" class="box">
+                <!-- Radio button for selecting this option -->
+                <div class="radio-btn" onclick="toggleActive(this)">
+                    <input type="radio" name="choice">
+                    <span></span>
+                </div>
+
+                <!-- Heading showing item details and discount -->
+                <div class="heading">
+                    <h2>2 Unit
+                        <span class="discount">20% off</span>
+                    </h2>
+                </div>
+
+                <!-- Pricing details -->
+                <div class="cost">
+                    <div>
+                        <h2>$18.00 USD</h2>
+                    </div>
+                    <div class="previous-price">$24.00 USD </div>
+                </div>
+
+                <!-- Description section with size and color options -->
+                <div class="description">
+                    <div class="container">
+                        <div style="padding-left: 1rem;">size</div>
+                        <div>colour</div>
+
+                        <!-- Size and color options for item #1 -->
+                        <div>
+                            #1
+                            <select name="" id="">
+                                <option value="value1">s</option>
+                            </select>
+                        </div>
+                        <div>
+                            <select name="" id="">
+                                <option value="value1">black</option>
+                            </select>
+                        </div>
+
+                        <!-- Size and color options for item #2 -->
+                        <div>
+                            #2
+                            <select name="" id="">
+                                <option value="value1">s</option>
+                            </select>
+                        </div>
+                        <div>
+                            <select name="" id="">
+                                <option value="value1">colour</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- Section for the third item option -->
+        <div class="three-Items">
+            <form action="" class="box">
+                <!-- Radio button for selecting this option -->
+                <div class="radio-btn" onclick="toggleActive(this)">
+                    <input type="radio" name="choice">
+                    <span></span>
+                </div>
+
+                <!-- Heading showing item details and discount -->
+                <div class="heading">
+                    <h2>3 Unit
+                        <span class="discount">30% off</span>
+                    </h2>
+                </div>
+
+                <!-- Pricing details -->
+                <div class="cost">
+                    <div>
+                        <h2>$24.00 USD</h2>
+                    </div>
+                    <div class="previous-price">$24.00 USD </div>
+                </div>
+
+                <!-- Description section with size and color options -->
+                <div class="description">
+                    <div class="container">
+                        <div style="padding-left: 1rem;">size</div>
+                        <div>colour</div>
+
+                        <!-- Size and color options for item #1 -->
+                        <div>
+                            #1
+                            <select name="" id="">
+                                <option value="value1">s</option>
+                            </select>
+                        </div>
+                        <div>
+                            <select name="" id="">
+                                <option value="value1">black</option>
+                            </select>
+                        </div>
+
+                        <!-- Size and color options for item #2 -->
+                        <div>
+                            #2
+                            <select name="" id="">
+                                <option value="value1">s</option>
+                            </select>
+                        </div>
+                        <div>
+                            <select name="" id="">
+                                <option value="value1">colour</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- Footer section for additional information -->
+        <div class="container2">
+            <h2 class="pink">Free delivery</h2>
+            <h2>Total: $18.00 USD</h2>
+        </div>
+
+        <div class="container3">
+            <h2><i class="fa-solid fa-plus"></i></h2>
+            <h2>Add to Cart</h2>
+        </div>
+
+        <!-- Branding information -->
+        <div class="powered">
+            <i>@ powered by pumper</i>
+        </div>
+
+        <script>
+            // Function to handle the behavior when a box is clicked
+            function boxClick(event) {
+                // Ensure event is triggered only by the .box container
+                if (!event.currentTarget.classList.contains('box')) {
+                    return;
+                }
+
+                // Get all descriptions
+                const descs = document.getElementsByClassName("description");
+
+                // Get the clicked radio button container
+                const clickedradioBtn = event.currentTarget.querySelector('.radio-btn');
+
+                // Deselect all boxes and remove active classes from all radio buttons
+                const boxes = document.querySelectorAll('.box');
+                boxes.forEach(box => {
+                    box.classList.remove('active');
+                    const radioInput = box.querySelector('input[type="radio"]');
+                    if (radioInput) {
+                        radioInput.checked = false; // Uncheck all radios
+                    }
+                });
+
+                const allRadioButtons = document.querySelectorAll('.radio-btn');
+                allRadioButtons.forEach(btn => btn.classList.remove('active'));
+
+                // Remove 'active' class and hide all descriptions
+                for (let i = 0; i < descs.length; i++) {
+                    descs[i].classList.remove('active');
+                    descs[i].style.display = 'none';
+                }
+
+                // Add active class to the clicked box and check the associated radio button
+                const clickedBox = event.currentTarget;
+                clickedBox.classList.add('active');
+                const radioInput = clickedradioBtn.querySelector('input[type="radio"]');
+                if (radioInput) {
+                    radioInput.checked = true;
+                }
+
+                // Show the clicked box's description
+                const clickedDesc = clickedBox.querySelector('.description');
+                if (clickedDesc) {
+                    clickedDesc.classList.add('active');
+                    clickedDesc.style.display = 'block';
+                }
+            }
+
+            // Attach click events to all forms
+            document.querySelectorAll('.box').forEach(box => {
+                box.addEventListener('click', boxClick);
+            });
+        </script>
+    </div>
+</body>
+
+
+</html>
